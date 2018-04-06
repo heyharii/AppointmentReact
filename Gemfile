@@ -37,6 +37,7 @@ gem 'jquery-rails'
 
 gem 'haml'
 
+gem "webpacker", "~> 3.0"
 gem 'react_on_rails', '10.0.2'
 
 group :development, :test do
