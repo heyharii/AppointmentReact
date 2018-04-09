@@ -1,5 +1,5 @@
 {
-  "scripts": { "postinstall": "npm install" },
+  "scripts": { "postinstall": "cd app/javascript && npm install" },
   "name": "calreact",
   "private": true,
   "dependencies": {
