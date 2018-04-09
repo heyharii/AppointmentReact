@@ -1,13 +1,13 @@
 {
   "name": "calreact",
   "private": true,
-
+  "main": "server-express.js",
   "engines": {
     "node": "^7.8.0 || ^8.0.0 || ^9.2.0",
     "npm": "^4.4.4 || ^5.0.0",
     "yarn": "^1.0.0"
   },
-  "scripts": { "postinstall": "cd app/javascript && npm install" },
+  "scripts": { "postinstall": "cd app/javascript && yarn install" },
   "dependencies": {
     "@rails/webpacker": "3.4",
     "babel-preset-react": "^6.24.1",
@@ -22,9 +22,5 @@
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"
-  },
-   "cacheDirectories": [
-    "node_modules",
-    "client/node_modules"
-  ]
+  }
 }
